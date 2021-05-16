@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+    font-size: 30px;
+    line-height: 1.4em;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -317,8 +326,9 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 5px;
     float: right;
+    text-decoration: none;
     z-index: 1;
 }
 
@@ -326,6 +336,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -701,7 +712,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 25px auto 20px auto;
 }
 
 h2 {
@@ -778,6 +789,16 @@ h4 {
     color: #F3976C!important;
 }
 
+.white-txt {
+    color: white!important;
+}
+
+.adress {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -841,7 +862,8 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+        margin-right: 40px;
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -1028,6 +1050,7 @@ h4 {
     }
 }
 
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1039,4 +1062,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+
+    .row-no-gutters {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    
