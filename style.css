@@ -839,11 +839,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img-optimised/image-présentation.webp");
+    background-image: url("img-optimised/image-présentation2.webp");
 }
 
 .bg-presentation {
-    background-image: url("img-optimised/image-présentation2.webp");
+    background-image: url("img-optimised/image-présentation.webp");
 }
 
 @media (max-width: 1024px) {
