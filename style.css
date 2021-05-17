@@ -831,19 +831,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img-optimised/dots-bg.png");
+    background-image: url("img-optimised/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img-optimised/lines-h2-bg.png");
+    background-image: url("img-optimised/lines.webp");
 }
 
 .bg-banniere {
-    background-image: url("img-optimised/image-présentation1.jpg");
+    background-image: url("img-optimised/image-présentation.webp");
 }
 
 .bg-presentation {
-    background-image: url("img-optimised/image-présentation2.jpg");
+    background-image: url("img-optimised/image-présentation2.webp");
 }
 
 @media (max-width: 1024px) {
