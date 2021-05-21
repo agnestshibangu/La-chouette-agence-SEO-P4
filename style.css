@@ -784,7 +784,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #ff762c;
+    background-color: #d44a00;
 }
 
 .tc-white {
@@ -841,11 +841,11 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img-optimised/lines.webp");
+    background-image: url("img-optimised/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img-optimised/image-présentation2.webp");
+    background-image: url("img-optimised/image-de-presentation2.webp");
 }
 
 .bg-presentation {
