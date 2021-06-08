@@ -1077,6 +1077,7 @@ blockquote {
 }
 
 @media (max-width: 767px) {
+
     .bloc-mob-center-text {
         text-align: center;
     }
@@ -1084,7 +1085,6 @@ blockquote {
     .row-no-gutters {
         display: flex;
         justify-content: space-around;
-
     }
 
-    
+    }    
